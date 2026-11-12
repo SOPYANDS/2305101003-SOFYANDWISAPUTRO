@@ -1,92 +1,48 @@
-INSTRUKSI PENGUMPULAN HASIL PRAKTIKUM MOBILE PROGRAMMING MELALUI GITHUB
-Setiap mahasiswa diwajibkan mengumpulkan hasil praktikum mata kuliah Mobile Programming melalui GitHub. Repository digunakan untuk menyimpan source code, dokumentasi, dan bukti hasil implementasi aplikasi pada setiap pertemuan praktikum.
+INSTRUKSI PENGUMPULAN HASIL UJIAN TENGAH SEMESTER (UTS)
+PEMROGRAMAN MOBILE MELALUI GITHUB
+Setiap mahasiswa diwajibkan mengumpulkan hasil Ujian Tengah Semester (UTS) mata kuliah Pemrograman Mobile melalui GitHub. Repository GitHub digunakan untuk menyimpan source code, dokumentasi, dan bukti hasil implementasi aplikasi mobile sesuai dengan soal serta ketentuan UTS yang diberikan oleh dosen.
 
 A. Ketentuan Umum
-Setiap mahasiswa wajib memiliki akun GitHub.
+Setiap mahasiswa wajib memiliki akun GitHub yang aktif.
 
-Buat satu repository GitHub untuk menyimpan seluruh hasil praktikum selama satu semester.
+Setiap mahasiswa wajib membuat satu repository GitHub untuk mengumpulkan hasil UTS.
 
-Gunakan nama repository dengan format nim-nama.
+Gunakan nama repository dengan format NIM-KELAS-PROJECT, misalnya 2405101043-5E-PROJECT.
 
-Atur visibility repository menjadi Public agar dapat diakses dan diperiksa oleh dosen.
+Atur visibility repository menjadi Public agar dapat diakses dan diperiksa.
 
-Buat folder terpisah untuk setiap pertemuan praktikum dengan format modul-01, modul-02, dan seterusnya.
+Source code yang dikumpulkan harus merupakan hasil pengerjaan mahasiswa sendiri.
 
-Di dalam setiap folder pertemuan, wajib terdapat folder screenshots untuk menyimpan tangkapan layar hasil praktikum.
+Setiap mahasiswa wajib memperbarui repository dan memastikan seluruh file berhasil diunggah ke GitHub sebelum batas waktu pengumpulan.
 
-Simpan source code dan file pendukung sesuai dengan kebutuhan setiap praktikum.
-
-Setiap selesai mengerjakan praktikum, unggah perubahan terbaru ke GitHub.
-
-Setiap repository wajib memiliki file README.md yang berisi identitas mahasiswa, informasi mata kuliah, deskripsi repository, daftar praktikum, dan informasi pendukung lainnya.
+Setiap repository wajib memiliki file README.md yang berisi identitas mahasiswa, informasi mata kuliah, deskripsi pengerjaan UTS, teknologi yang digunakan, petunjuk menjalankan aplikasi, dan informasi pendukung lainnya.
 
 Kumpulkan tautan repository melalui media pembelajaran yang telah ditentukan oleh dosen.
 
 B. Struktur Repository
 Gunakan struktur folder berikut sebagai acuan.
 
-praktikum-mobile-programming/ ├── modul-01/ │ ├── screenshots/ │ │ ├── 01-halaman-utama.png │ │ └── 02-hasil-praktikum.png │ └── [source-code-dan-file-pendukung] ├── modul-02/ │ ├── screenshots/ │ │ ├── 01-tampilan-awal.png │ │ └── 02-hasil-implementasi.png │ └── [source-code-dan-file-pendukung] ├── modul-03/ │ ├── screenshots/ │ │ └── ... │ └── [source-code-dan-file-pendukung] └── README.md Catatan: Nama dan jumlah file screenshot disesuaikan dengan hasil serta ketentuan setiap pertemuan. Placeholder [source-code-dan-file-pendukung] bukan nama folder yang wajib dibuat, melainkan penanda untuk file atau struktur proyek aplikasi yang sebenarnya.
+NIM-KELAS-PROJECT/
+├── uts/
+│   ├── [source-code-project-mobile]/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   └── screenshots/
+│       ├── halaman-utama.png
+│       ├── halaman-kedua.png
+│       └── hasil-implementasi.png
+│
+├── README.md
+└── [file-pendukung-lainnya]
+Catatan:
 
-Jika menggunakan Flutter, misalnya, folder pertemuan dapat berisi struktur proyek Flutter seperti lib/, pubspec.yaml, dan file pendukung yang diperlukan. Jika menggunakan teknologi lain, sesuaikan dengan struktur proyeknya.
+Struktur folder di atas merupakan contoh dan dapat disesuaikan dengan teknologi serta framework yang dipersyaratkan dalam soal UTS.
 
-C. Ketentuan Folder Screenshots
-Setiap folder pertemuan wajib memiliki folder screenshots yang berisi bukti visual hasil pengerjaan praktikum.
+Folder uts digunakan untuk menyimpan source code dan seluruh file pendukung pengerjaan UTS.
 
-Ketentuan screenshot:
+Folder screenshots digunakan untuk menyimpan bukti visual hasil implementasi aplikasi mobile.
 
-Screenshot harus menunjukkan hasil implementasi praktikum yang dikerjakan.
+Source code dapat menggunakan struktur bawaan framework atau teknologi yang digunakan, seperti Flutter, React Native, Kotlin, Java, atau teknologi lain sesuai ketentuan soal UTS.
 
-Screenshot harus berasal dari aplikasi yang dijalankan pada emulator, simulator, atau perangkat mobile, sesuai dengan instruksi praktikum.
-
-Screenshot harus jelas dan dapat dibaca.
-
-Nama file harus deskriptif dan terurut, misalnya 01-halaman-utama.png, 02-halaman-detail.png, dan 03-hasil-validasi.png.
-
-Screenshot harus disimpan pada folder screenshots di pertemuan yang sesuai.
-
-Jangan menggunakan screenshot dari hasil pekerjaan mahasiswa lain.
-
-Jangan hanya mengumpulkan screenshot tanpa menyertakan source code.
-
-Pastikan screenshot yang diunggah sesuai dengan source code pada pertemuan tersebut.
-
-D. Ketentuan README.md
-File README.md wajib tersedia di direktori utama repository dan memuat informasi berikut:
-
-Judul repository.
-
-Identitas mahasiswa: nama lengkap, NIM, dan kelas.
-
-Informasi mata kuliah dan tahun akademik.
-
-Deskripsi repository.
-
-Daftar praktikum beserta topik dan tautan folder.Cara menjalankan aplikasi apabila diperlukan.
-
-Referensi yang digunakan, jika ada. Gunakan template berikut.
-
-Repository Praktikum Mobile Programming
-Identitas Mahasiswa
-Nama: [Nama Lengkap]
-NIM: [NIM]
-Kelas: [Kelas]
-Program Studi: [Program Studi]
-Mata Kuliah: Mobile Programming
-Tahun Akademik: [Tahun Akademik]
-Deskripsi
-Repository ini berisi source code, dokumentasi, dan screenshot hasil praktikum Mobile Programming selama satu semester.
-
-Daftar Praktikum
-Pertemuan	Topik	Source Code dan Screenshot
-01	Topik Praktikum 01	Folder
-02	Topik Praktikum 02	Folder
-03	Topik Praktikum 03	Folder
-Cara Menjalankan Aplikasi
-Tuliskan langkah-langkah menjalankan aplikasi sesuai teknologi yang digunakan.
-
-Referensi
-Cantumkan sumber referensi yang digunakan, jika ada. Perbarui daftar praktikum setiap kali menyelesaikan pertemuan baru. Pastikan seluruh placeholder telah diganti dengan informasi yang sesuai.
-
-F. Format Pengumpulan Kumpulkan Link repository GitHub
-
-Perhatian: Pengumpulan praktikum dinyatakan lengkap apabila repository berisi source code dan screenshot untuk setiap pertemuan yang ditugaskan, dilengkapi README.md, serta dapat diakses untuk proses pemeriksaan dan penilaian oleh dosen.
+File dan folder bawaan proyek yang diperlukan untuk menjalankan aplikasi tetap harus disertakan.
