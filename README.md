@@ -1,5 +1,5 @@
-INSTRUKSI PENGUMPULAN HASIL UJIAN TENGAH SEMESTER (UTS)
-PEMROGRAMAN MOBILE MELALUI GITHUB
+*INSTRUKSI PENGUMPULAN HASIL UJIAN TENGAH SEMESTER (UTS)
+PEMROGRAMAN MOBILE MELALUI GITHUB*
 Setiap mahasiswa diwajibkan mengumpulkan hasil Ujian Tengah Semester (UTS) mata kuliah Pemrograman Mobile melalui GitHub. Repository GitHub digunakan untuk menyimpan source code, dokumentasi, dan bukti hasil implementasi aplikasi mobile sesuai dengan soal serta ketentuan UTS yang diberikan oleh dosen.
 
 A. Ketentuan Umum
